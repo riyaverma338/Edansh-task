@@ -22,6 +22,9 @@ margin: 12px;
 .buttons{
 padding-right: 60px;
 }
+.m-privacy{
+    display: none;
+}
 
 .button1{
     margin: 20px;
@@ -47,6 +50,9 @@ padding-right: 60px;
 .head >p{
     margin: 15px;
 }
+.m-socialicons{
+    display: none;
+}
 
 .search >img{
     position: absolute;
@@ -54,7 +60,6 @@ padding-right: 60px;
     margin-top: 10px;
 
 }
-
 .search >input {
     width: 500px;
     height: 50px;
@@ -94,7 +99,9 @@ margin: 5px;
 .socialicons >img{
     padding: 8px;
 }
-
+.col-4 >div{
+    border-radius: 10px;
+}
     .col-4 >div >img{
         border-radius: 50%;
         margin: 0 auto;
@@ -114,7 +121,7 @@ margin: 5px;
 .card-title{
 font-style: normal;
 font-weight: bold;
-font-size: 20.9086px;
+font-size: 18px;
 color: #223345;
 
 }
@@ -155,16 +162,13 @@ font-weight: bold;
         color: #FFFFFF; 
         font-weight: bold;
       }
-
- .foot {
-     position: absolute;
-     top: 60px;
-     right: 100px;
- }  
  .foot >p{
     font-weight: 400;
     font-size: 14px;
  }   
+ .foot{
+     margin-top: 60px;
+ }
 
  .company{
      margin-top: 60px;
@@ -208,13 +212,16 @@ font-weight: bold;
      padding-top: 150px;
      margin-bottom: 5px;
  }
-
+.frame{
+    display: none;
+}
  @media screen and (max-width: 600px){
 
     .nav{
         display: flex;
         justify-content: space-between;
-        margin: 15px;
+        margin: 15px 5px;
+        width: 100%;
     }
         .row{
             flex-direction: column;
@@ -246,6 +253,11 @@ font-weight: bold;
         }
         .nav >img.search{
          display: block !important;
+         background: rgba(237, 237, 237, 0.9);
+        border-radius: 50%;
+        height: 35px;
+    width: auto;
+    padding: 8px;
         }
         .nav > img.search{
             display: block;
@@ -263,4 +275,62 @@ font-weight: bold;
         .head{
             display: none;
         }
+        #heading{
+            display: none;
+        }
+        .frame {
+            width: 100%;
+        }
+        .text{
+            display: none;
+        }
+        .ed >img{
+            margin: 10px 0px;
+        }
+        .ed >p{
+            font-size: 15px;
+            margin-left: 0px !important;
+            margin-right: 0px !important;
+            font-weight: 200;
+            font-size: 12px;
+        }
+        .contact{
+            margin-top: 10px;
+        }
+        .company{
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        .contact >h6{
+            font-weight: 600;
+            font-size: 12px;
+         }
+         .contact >h5{
+            font-size: 14px;
+            line-height: 35px;
+         }
+         .company >h5{
+            font-size: 14px;
+            line-height: 35px;
+         }
+         .company >h6{
+            font-weight: 600;
+            font-size: 12px;
+         }
+         .foot{
+             display: none;
+         }
+         .socialicons{
+             display: none;
+         }
+         .m-socialicons{
+             display: block;
+             border-bottom: 1px solid grey;
+         }
+         .privacy{
+             display: none;
+         }
+         .m-privacy{
+             display: block;
+         }
  }
