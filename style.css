@@ -280,6 +280,7 @@ font-weight: bold;
         }
         .frame {
             width: 100%;
+            display: block;
         }
         .text{
             display: none;
