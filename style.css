@@ -1,0 +1,266 @@
+.nav{
+display: flex;
+justify-content: space-between;
+margin: 12px;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.nav >img{
+    margin-left: 20px;
+}
+.nav > img.search{
+    display: none;
+}
+.nav> img.frame{
+    display: none;
+}
+.nav >button >img.toggle{
+    display: none;
+}
+.buttons{
+padding-right: 60px;
+}
+
+.button1{
+    margin: 20px;
+    color: #0A2540;
+    border: 1px solid #0A2540;
+}
+.button2{
+    background-color: #0A2540;
+    color: #FFFFFF;
+}
+
+.button2:hover{
+    color: #FFFFFF;
+}
+#heading{
+    margin-bottom: 15px;
+}
+.head{
+    margin: 50px;
+    display: inline-flex;
+    align-items: center;
+} 
+.head >p{
+    margin: 15px;
+}
+
+.search >img{
+    position: absolute;
+    left: 160px;
+    margin-top: 10px;
+
+}
+
+.search >input {
+    width: 500px;
+    height: 50px;
+    border: 1px solid #EDEDED;
+    text-align: center;
+    border-radius: 25px;
+    background-color: #EDEDED;
+    
+}
+
+.filters{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 10%;
+  margin-right: 12%;
+}
+.options >select{
+    border: 0.683071px solid #929292;
+border-radius: 33px;
+padding: 13px 20px;
+font-weight: 600;
+font-size: 12px;
+margin: 5px;
+}
+#footer{
+    background-color: #0A2540;
+    height: 400px;
+    position: relative;
+}
+.socialicons{
+    position: absolute;
+    bottom: 50px;
+    right: 30px;
+}
+
+.socialicons >img{
+    padding: 8px;
+}
+
+    .col-4 >div >img{
+        border-radius: 50%;
+        margin: 0 auto;
+        box-shadow: 0 0 10px rgba(0,0,0,.2);
+    }
+ 
+    .col-4 {
+    padding: 1.5em .5em .5em !important;
+    text-align: center !important;
+    }
+
+.mentors{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.card-title{
+font-style: normal;
+font-weight: bold;
+font-size: 20.9086px;
+color: #223345;
+
+}
+
+.card-body >h6{
+    font-style: normal;
+font-weight: bold;
+font-size: 11.8482px;
+line-height: 18px;
+color: #0C7DD9;
+}
+
+
+.btn3 >button {
+    background: #11A1FD;
+border-radius: 6.08484px;
+padding: 10px;
+width: 158px;
+font-size: 12.7173px;
+color: #FFFFFF; 
+font-weight: bold;
+}
+
+.foot >input{
+        border: 0;
+        outline: 0;
+        background: transparent;
+        border-bottom: 1px solid #717375;
+      }
+
+      .btn4 >button{
+        background: #11A1FD;
+        border-radius: 6.08484px;
+        padding: 10px;
+        width: 128px;
+        margin-top: 15px;
+        font-size: 12.7173px;
+        color: #FFFFFF; 
+        font-weight: bold;
+      }
+
+ .foot {
+     position: absolute;
+     top: 60px;
+     right: 100px;
+ }  
+ .foot >p{
+    font-weight: 400;
+    font-size: 14px;
+ }   
+
+ .company{
+     margin-top: 60px;
+ }
+
+ .contact{
+     margin-top: 60px;
+ }
+ .contact >h6{
+    font-weight: 600;
+    font-size: 13.9103px;
+    color: #717375;
+ }
+ .contact >h5{
+    font-weight: normal;
+    font-size: 16.6924px;
+    line-height: 35px;
+ }
+ .company >h5{
+    font-weight: normal;
+    font-size: 16.6924px;
+    line-height: 35px;
+ }
+ .company >h6{
+    font-weight: 600;
+    font-size: 13.9103px;
+    color: #717375;
+ }
+
+ .ed >img{
+     margin: 50px 50px;
+ }
+ .ed >p{
+     margin-left: 50px;
+     margin-right: 150px;
+ }
+
+ .text{
+     display: flex;
+     justify-content: space-between;
+     padding-top: 150px;
+     margin-bottom: 5px;
+ }
+
+ @media screen and (max-width: 600px){
+
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        margin: 15px;
+    }
+        .row{
+            flex-direction: column;
+        }
+        .filters{
+            flex-direction: column;
+        }
+       .nav>button> span{
+        border:1px solid #000;
+        }
+        .content{
+            display: flex !important;
+            flex-direction: column !important;
+            width: 100%;
+        }
+        #footer{
+            padding: 20px !important;
+            height: 100% !important;
+        }
+        .col-4{
+            width: 100%;
+        }
+        .col-4>div{
+            width: 100% !important;
+            margin-left: 0% !important;
+        }
+        .search {
+            display: none;
+        }
+        .nav >img.search{
+         display: block !important;
+        }
+        .nav > img.search{
+            display: block;
+        }
+        .nav> img.frame{
+            display: block;
+            width: 100%;
+        }
+        .nav >button >img.toggle{
+            display: block;
+        }
+        .buttons{
+            display: none;
+        }
+        .head{
+            display: none;
+        }
+ }
